@@ -1,0 +1,6 @@
+[submodule "lua"]
+	path = lua
+	url = https://github.com/lua/lua.git
+[submodule "vim"]
+	path = vim
+	url = https://github.com/vim/vim.git
