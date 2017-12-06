@@ -14,6 +14,9 @@ do
 
 	objdir "%{prj.name}"
 
+	targetdir("lua/lib")
+	targetname("lua53")
+
 	flags{
 		-- "WinMain" -- with WindowedApp
 		"StaticRuntime"
@@ -53,6 +56,8 @@ do
 	language "C++"
 
 	objdir "%{prj.name}"
+	targetdir("lua/lib")
+	targetname("lua53")
 
 	files
 	{
